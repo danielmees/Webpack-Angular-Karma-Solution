@@ -114,7 +114,7 @@ describe('App', () => {
 
     fixture.whenStable().then(() => {
       expect(select.nativeElement.value).toEqual('L');
-      expect(fixture.componentInstance.productsFiltered[0]).toBe(fakeProducts[1]);
+      expect(fixture.componentInstance.productsFiltered[0]).toBe(fakeProducts[0]);
     });
   });
 
