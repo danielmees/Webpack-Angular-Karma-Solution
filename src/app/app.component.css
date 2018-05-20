@@ -1,0 +1,71 @@
+/* Top container */
+.container {
+  width: 100%;
+}
+
+/* Dropdown section styling */
+.dropDownContainer {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #DEF1F7;
+}
+
+.dropDownContainer p {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 15px;;
+  float: left;
+}
+
+.dropDownContainer select {
+  margin: 15px;
+  width: 160px;
+  height: 25px;
+  font-size: 14px;
+  border: 1px solid #505254;
+  border-radius: 5px;
+  background-color: #F4F4F4;
+  float: right;
+}
+
+/* For clearing the float of above sections */
+.clearFloat {
+  clear: both;
+}
+
+
+/* Product details section styling, make it full width for small screen, vertical align all the products */
+.productContainer {
+  width: 100%;
+  height: 400px;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #E6E6E6;
+  box-sizing: border-box;
+}
+
+/* Responsive: Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .productContainer {
+    width: 50%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .dropDownContainer p {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 15px;;
+    float: left;
+  }
+
+  .productContainer {
+    width: 25%;
+  }
+}

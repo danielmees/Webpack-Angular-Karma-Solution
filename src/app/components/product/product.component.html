@@ -1,0 +1,9 @@
+<div class="productDetailContainer">
+  <img src='http://localhost:8090/src/assets/products_images/{{product.productImage}}' />
+  <button *ngIf="product.isSale" class="saleBtn">Sale</button>
+  <button *ngIf="product.isExclusive" class="ExclusiveBtn">Exclusive</button>
+  <div class="productNameContainer">
+    <h4>{{product.productName}}</h4>
+    <h3>{{product.price}}</h3>
+  </div>
+</div>

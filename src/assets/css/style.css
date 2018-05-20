@@ -1,0 +1,21 @@
+/* Clear margin and padding */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Responsive: Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    padding: 50px;
+    margin: 0;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+    padding: 100px;
+    margin: 0;
+  }
+}

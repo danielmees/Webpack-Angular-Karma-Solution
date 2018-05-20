@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="dropDownContainer">
+    <p>Women's tops</p>
+    <select (change)="selectChange($event.target.value)">
+      <option value="" disabled selected>Filter by size</option>
+      <option *ngFor="let size of sizeRange" value={{size}}>{{size}}</option>
+    </select>
+    <div class="clearFloat"></div>
+  </div>
+  <app-product *ngFor="let product of productsFiltered" [product]="product" class="productContainer"></app-product>
+</div>

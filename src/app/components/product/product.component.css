@@ -1,0 +1,39 @@
+/* Each product details section styling */
+.productDetailContainer {
+  padding: 0 10px;
+  height: 100%;
+  position: relative;
+}
+
+/* Buttons styling */
+.saleBtn {
+  padding: 15px 20px;
+  color: #FFFFFF;
+  font-size: 13px;
+  background-color: #B32400;
+}
+
+.ExclusiveBtn {
+  padding: 15px 20px;
+  color: #FFFFFF;
+  font-size: 13px;
+  background-color: #009900;
+}
+
+/* Section for Name and Price */
+.productNameContainer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.productNameContainer h4 {
+  margin-left: 10px;
+  float: left;
+}
+
+.productNameContainer h3 {
+  margin-right: 10px;
+  float: right;
+}
